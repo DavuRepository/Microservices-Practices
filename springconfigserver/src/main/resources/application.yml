@@ -5,5 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DavuRepository/Microservices-Practices
-          #search-paths: spring-config-store/*service'
+          uri: https://github.com/DavuRepository/Microservices-Practices.git
+          search-paths: spring-config-store/*service
+
