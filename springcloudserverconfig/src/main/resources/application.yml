@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DavuRepository/Microservices-Practices.git
+          search-paths: spring-config-store/*service
+
+
+#server.port=8888
+#spring.cloud.config.server.git.uri=https://github.com/DavuRepository/Microservices-Practices.git
+#spring.cloud.config.server.git.search-paths=spring-config-store/*service
